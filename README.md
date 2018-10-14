@@ -102,4 +102,4 @@ Page({
 //其他 开发者可以添加任意的函数或数据到 object 参数中，在页面的函数中用 this 可以访问
 
 ```
-
+![avatar](https://upload-images.jianshu.io/upload_images/1480597-ac90d7e8add10c54.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
