@@ -76,6 +76,30 @@ my git product
   .json 是页面的配置文件，只能设置app.json中的window配置内容，会覆盖app.json中window的相同配置项，即使不配置任何东西也需要写{},否则会报错
 
 ## 2常用的api
-  ![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
-u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
+![avatar](https://upload-images.jianshu.io/upload_images/2602441-5f1067b16f1df1bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/692/format/webp)
+![avatar](https://upload-images.jianshu.io/upload_images/2602441-3255f2534e6fe943.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/668/format/webp)
+页面生命周期
+![avatar](https://upload-images.jianshu.io/upload_images/2602441-e5cf1559dbde1d7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/489/format/webp)
+![avatar](https://upload-images.jianshu.io/upload_images/2602441-550cde1c73ba5fc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/621/format/webp)
+```
+Page({
+  onLoad: function(options) {
+    //页面加载-----(一个页面只会调用一次)
+  },
+  onReady: function() {
+    //页面渲染-----(一个页面只会调用一次)
+  },
+  onShow: function() {
+    //页面显示-----(每次打开页面都会调用一次)
+  },
+  onHide: function() {
+    //页面隐藏-----(当navigateTo或底部tab切换时调用)
+  },
+  onUnload: function() {
+    //页面卸载-----(当redirectTo或navigateBack的时候调用)
+  },
+})
+//其他 开发者可以添加任意的函数或数据到 object 参数中，在页面的函数中用 this 可以访问
+
+```
 
