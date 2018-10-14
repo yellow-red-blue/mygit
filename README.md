@@ -76,4 +76,6 @@ my git product
   .json 是页面的配置文件，只能设置app.json中的window配置内容，会覆盖app.json中window的相同配置项，即使不配置任何东西也需要写{},否则会报错
 
 ## 2常用的api
+  ![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
+u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
 
